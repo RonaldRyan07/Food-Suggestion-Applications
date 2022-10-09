@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#E42021"
+        android:textColorHint="#E42021"
+        android:singleLine="true"
+        android:id="@+id/user_name"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#E42021"
+        android:textColorHint="#E42021"
+        android:singleLine="true"
+        android:id="@+id/user_email"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_critics"
+        android:text="Change User to Critic"
+        android:backgroundTint="#E42021"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
